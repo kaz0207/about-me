@@ -1,0 +1,93 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 2;
+    margin: 0;
+    padding: 0;
+    background-color: #ebecee; 
+    position: relative;
+    overflow-x: hidden;
+}
+.container {
+    width: 80%;
+    min-height: 90vh;
+    max-width: 800px;
+    margin: 20px auto;
+    background-color: #ffffff;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    position: relative;
+    z-index: 2;
+}
+
+
+.profile-img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 50%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+h1 {
+    font-size: 2.5rem;
+    color: #343a40;
+    margin-bottom: 10px;
+}
+h2 {
+    font-size: 1.8rem;
+    color: #343a40;
+    margin-bottom: 20px;
+}
+p {
+    font-size: 1.2rem;
+    color: #6c757d;
+    margin-bottom: 20px;
+}
+a {
+    color: #007bff;
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+}
+
+nav {
+    text-align: center; /* 中央揃えにする */
+    background-color: #343a40;
+    padding: 10px 0;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    position: relative;
+    z-index: 2;
+}
+nav a {
+    color: #ffffff;
+    padding: 10px 20px;
+    text-decoration: none;
+    transition: background-color 0.3s;
+    margin: 0 10px; /* リンクの間隔を追加 */
+}
+nav a:hover {
+    background-color: #555d66;
+}
+
+footer {
+    background-color: #343a40;
+    color: #ffffff;
+    text-align: center;
+    padding: 20px 0;
+    margin-top: 20px;
+    border-radius: 8px;
+    bottom: 0;
+    width: 100%;
+}
+
+footer p {
+    margin: 5px 0;
+    font-size: 1rem;
+}
